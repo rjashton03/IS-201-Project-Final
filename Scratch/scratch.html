@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RJ's Sports Page</title>
+    <link rel="stylesheet" href="scratchstyle.css">
+    <div class="nav">
+    <a href="../Resume/index.html" target="_blank">Back to Professional Site</a> |
+    <a href="../Web App/index.html" target="_blank">To Web App</a>
+</div>
+</head>
+
+<body>
+<h1>RJ's Sports World</h1>
+    <p>Football, rugby, and running have been part of my life for years. Here’s a quick breakdown of some of my favorites, plus stats, videos, and more.</p>
+
+    <!-- Ordered + unordered list -->
+    <div class="list-section" id="topSports">
+        <h2>My Top Sports (With Gear Lists)</h2>
+
+        <ol>
+            <li>Football
+                <ul>
+                    <li>Helmet</li>
+                    <li>Cleats</li>
+                    <li>Gloves</li>
+                </ul>
+            </li>
+
+            <li>Rugby
+                <ul>
+                    <li>Mouthguard</li>
+                    <li>Cleats</li>
+                    <li>Sausages and Tape</li>
+                    <li>Headgeat</li>
+                </ul>
+            </li>
+
+            <li>Running
+                <ul>
+                    <li>Lightweight shoes</li>
+                    <li>Compression shorts</li>
+                    <li>Compression Shirt</li>
+                    <li>Water Pack</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+<div class="image-section">
+    <h2>Sports Energy</h2>
+    <div class="photo-row">
+        <img src="../Media/rjfootball.JPG" alt="Football" class="sport-img">
+        <img src="../Media/rjrugby.JPG" alt="Rugby" class="sport-img"> 
+    </div>
+</div>
+
+    <!-- YouTube Section -->
+    <div class="video-container">
+        <h2>My Highlight Reel</h2>
+
+        <div class="responsive-video">
+            <iframe src="https://www.youtube.com/embed/0pP6As7L2RU?si=Pt8R1kdGU3P3emBr" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <!-- On-page anchor link -->
+    <p><a href="#topSports" class="anchor-link">Jump back to the top sports list</a></p>
+
+<!-- Full-width Tableau Section -->
+<div class="tableau-section full-width">
+    <h2>My Career Stats</h2>
+
+    <div class='tableauPlaceholder' id='viz1765325215481' style='position: relative; width:100%;'>
+        <noscript>
+            <a href='#'>
+                <img alt='Rob Gronkowski Career Stats'
+                     src='https://public.tableau.com/static/images/NF/NFLPlayerstats/RobGronkowskiCareerStatsandCompltedPlays/1_rss.png' />
+            </a>
+        </noscript>
+
+        <object class='tableauViz' style='display:none; width:100%;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='NFLPlayerstats&#47;RobGronkowskiCareerStatsandCompltedPlays' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image'
+                   value='https://public.tableau.com/static/images/NF/NFLPlayerstats/RobGronkowskiCareerStatsandCompltedPlays/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1765325215481');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '100%';
+        vizElement.style.height = '800px';  // adjust for tall charts
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</div>
+
+</body>
+</html>
+

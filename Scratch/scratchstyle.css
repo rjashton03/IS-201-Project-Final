@@ -1,0 +1,147 @@
+/* General Page Setup */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #eef2f7;
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+.nav {
+    background: #1e3a8a;
+    padding: 15px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Page Header */
+h1 {
+    text-align: center;
+    padding: 25px 0 5px 0;
+    font-size: 36px;
+    color: #1e3a8a;
+}
+
+/* Page intro paragraph */
+body > p {
+    width: 80%;
+    margin: 0 auto 30px auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Sections */
+.list-section,
+.image-section,
+.video-container,
+.tableau-section {
+    width: 80%;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Section Headers */
+.list-section h2,
+.image-section h2,
+.video-container h2,
+.tableau-section h2 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Image Styling */
+.sport-img {
+    width: 100%;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto; /* centers the image */
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+.photo-row {
+    display: flex;        /* side by side */
+    gap: 20px;            /* space between images */
+    justify-content: center; /* center the row in container */
+    flex-wrap: wrap;      /* stack on smaller screens */
+}
+
+.photo-row .sport-img {
+    width: 48%;            /* two images side by side */
+    max-width: 450px;      /* optional max size */
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+}
+
+/* Responsive YouTube Video */
+.responsive-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    margin-top: 15px;
+}
+
+.responsive-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Anchor Link */
+.anchor-link {
+    text-decoration: none;
+    color: #1e3a8a;
+    font-weight: bold;
+}
+
+.anchor-link:hover {
+    text-decoration: underline;
+}
+
+/* Full-width Tableau Section */
+.tableau-section.full-width {
+    width: 100%;
+    padding: 20px 0;
+    margin: 0;
+    background: #f4f7fa;
+    text-align: center;
+}
+
+.tableau-section.full-width h2 {
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.tableau-section.full-width object {
+    width: 100%;
+    max-width: 100%;
+    height: 800px; /* match JS height */
+}
+
